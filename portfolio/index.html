@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9e0c6956d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+     <div class="container">
+        <nav>
+            <img src="" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Vasanthkumar</span></h1>
+            
+            
+        </div>
+     </div>
+</div>
+
+<!-- -------------------About----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profile.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iste ratione excepturi quisquam non quis porro, dolore architecto autem commodi vel, libero ea reiciendis incidunt minus perspiciatis quod quo doloribus illo quaerat. Quas at distinctio consectetur culpa porro nemo excepturi, perspiciatis deleniti doloribus magnam earum molestiae deserunt, aut debitis. Consequuntur!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Graphic Designing</span><br>Poster,Brouchers,Standes,visiting cards,certificates Designing</li>
+                        <li><span>Web development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>UI/UX Web/App Interface</li>
+                        <li><span>2022</span><br>Graphic Designing</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Computer Sciene and Engineering At Rathinam Technical Campus, Coimbatore</li>
+                        <li><span>2018 - 2020</span><br>Sri Sakthi Supreme ideal Vikas Matric Higher Secondary School, Sangaragoundanpalayam</li>
+                        <li><span>2016 - 2018</span><br>Goverment Boys Higher Scondary School, Bhavani</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------Services------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list"> 
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia voluptates perspiciatis quam consequatur odit blanditiis. Provident ad modi ullam!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia voluptates perspiciatis quam consequatur odit blanditiis. Provident ad modi ullam!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia voluptates perspiciatis quam consequatur odit blanditiis. Provident ad modi ullam!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------Portfolio------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work.jpg" alt="image">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, hic.</p>
+                    <a href=""><!-- icon --></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.jpg" alt="image">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, hic.</p>
+                    <a href=""><!-- icon --></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.jpg" alt="image">
+                <div class="layer">
+                    <h3>Fruit App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, hic.</p>
+                    <a href=""><!-- icon --></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -------------Contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="icon"></i>vasu@gamil.com</p>
+                <p><i class="icon"></i>12345678990</p>
+                <div class="social-icons">
+                    <a href=""><!---icon link----->icon</a> 
+                    <a href=""><!---icon link----->icon</a> 
+                    <a href=""><!---icon link----->icon</a> 
+                    <a href=""><!---icon link----->icon</a> 
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="e mail" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Messsage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">Copyright &copy Vasu</div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+</body>
+</html>
